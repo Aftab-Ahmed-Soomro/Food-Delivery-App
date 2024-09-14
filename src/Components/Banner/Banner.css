@@ -1,0 +1,27 @@
+.banner-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+    max-width: 968px;
+    margin: 30px auto;
+}
+
+.img-wrapper img {
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+}
+
+.text-wrapper h2 {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.text-wrapper p {
+    margin-bottom: 30px;
+}
+
+.rotateImg {
+    flex-direction: row-reverse;
+}
